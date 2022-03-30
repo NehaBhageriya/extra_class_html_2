@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Checkbox, radio, dropdown, Tables, absolute Path and Relative Path </h1>
+
+    <form action="">
+
+        <input type="checkbox" name="course" id="html" value="html">
+        <label for="html">HTML</label><br><br>
+
+        <input type="checkbox" name="course" id="css" value="css">
+        <label for="css">CSS</label><br><br>
+
+
+        <input type="checkbox" name="course" id="js" value="js">
+        <label for="js">Javascript</label><br><br>
+
+        <input type="submit">
+    </form>
+
+    //radio:-name should be same in radio
+    <form action="">
+
+        <input type="radio" name="course" id="html" value="html">
+        <label for="html">HTML</label><br><br>
+
+        <input type="radio" name="course" id="css" value="css">
+        <label for="css">CSS</label><br><br>
+
+
+        <input type="radio" name="course" id="js" value="js">
+        <label for="js">Javascript</label><br><br>
+
+        <input type="submit">
+    </form>
+
+    absolute path: which is having full url and taken from online ex. chrome, internet images
+    <br>relative path: which is taken from local machine
+    <h1>absolute image</h1>
+    <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9zZSUyMGZsb3dlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        width="200px" height="200px" alt="">
+    <br>
+    <h1>relative img</h1><img src="images.jpg" alt="">
+
+    <form action="">
+
+        <select name="car" id="">
+            <option value="bmw">bmw</option>
+            <option value="abc">abc</option>
+            <option value="def">def</option>
+        </select>
+
+        <input type="submit">
+    </form>
+
+
+    <table border="1" width="400px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>neha</td>
+            <td>24</td>
+            <td>9145827456</td>
+        </tr>
+        <tr>
+            <td>neha</td>
+            <td>24</td>
+            <td>9145827456</td>
+        </tr>
+        <tr>
+            <td>neha</td>
+            <td>24</td>
+            <td>9145827456</td>
+        </tr>
+    </table><br><br>
+    <table border="1" width="400px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>neha</td>
+            <td rowspan="2">24</td>
+            <td>9145827456</td>
+        </tr>
+        <tr>
+            <td>neha</td>
+            
+            <td>9145827456</td>
+        </tr>
+        <tr>
+            <td>neha</td>
+            <td>24</td>
+            <td>9145827456</td>
+        </tr>
+    </table><br><br>
+    <table border="1" width="400px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td rowspan="2">neha</td>
+            <td>24</td>
+            <td>9145827456</td>
+        </tr>
+        <tr>
+            
+            <td>24</td>
+            <td>9145827456</td>
+        </tr>
+        <tr>
+            <td colspan="3" >neha</td>
+            
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
